@@ -1,0 +1,4 @@
+com\wei1\work\crm\sqlSessionUtil\SessionHandler.class
+com\wei1\work\crm\domain\People.class
+com\wei1\work\crm\sqlSessionUtil\SessionUtil.class
+com\wei1\work\crm\mapper\PeopleMapper.class
