@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.wei1.work.crm.mapper.PeopleMapper">
+<mapper namespace = "com.wei1.work.crm.settings.mapper.PeopleMapper">
     <select id="selectById" parameterType="String" resultType="People" >
         select * from user where userId=#{userId}
     </select>

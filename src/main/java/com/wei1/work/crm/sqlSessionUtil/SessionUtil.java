@@ -13,7 +13,7 @@ public class SessionUtil {
     }
 
     //一开始就创建一个SQLFactory
-    private static String resource = "E:\\IDEA_Projects\\CRM\\crm\\src\\main\\resource\\mybatis-config";
+    private static String resource = "mybatis-config";
     private static InputStream inputStream = null;
     private static  SqlSessionFactory sqlSessionFactory = null;
     static{
