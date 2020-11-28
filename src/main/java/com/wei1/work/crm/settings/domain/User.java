@@ -6,7 +6,7 @@ public class User {
     private String name;
     private String loginPwd;
     private String email;
-    private String  expireTime;
+    private String expireTime;
     private String lockState;
     private String deptno;
     private String allowIps;

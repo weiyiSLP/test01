@@ -1,10 +1,10 @@
 package com.wei1.work.crm.utils;
 
+import org.apache.ibatis.session.SqlSession;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
-import org.apache.ibatis.session.SqlSession;
 
 public class TransactionInvocationHandler implements InvocationHandler{
 	
@@ -32,7 +32,6 @@ public class TransactionInvocationHandler implements InvocationHandler{
 		}catch(Exception e){
 			session.rollback();
 			e.printStackTrace();
-			
 			//处理的是什么异常，继续往上抛什么异常
 			throw e.getCause();
 		}finally{
